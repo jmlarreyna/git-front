@@ -17,8 +17,8 @@ function App() {
   useEffect(() => {
     
       const getPerros = async () =>{
-          const {data} = await axios.get(process.env.REACT_APP_SERVER)
-          /*const {data} = await axios.get(process.env.DEPLOY_FRONT)*/
+      const SERVER = process.env.REACT_APP_SERVER;  
+          const {data} = await axios.get(SERVER)
           setPerros(data.perros)
       }
       getPerros()
