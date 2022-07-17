@@ -25,7 +25,7 @@ const handleChange = (e) => {
 
 
 const handleClick = async () => {
-await axios.post("http://localhost:3001/formulario", inputs)
+await axios.post(process.env.REACT_APP_SERVER + "/formulario", inputs)
     /*await axios.post(process.env.DEPLOY_FRONT + "/crear", inputs)*/
 
     setInputs({
