@@ -17,15 +17,14 @@ function App() {
   useEffect(() => {
     
       const getPerros = async () =>{
-      const SERVER = process.env.REACT_APP_SERVER;  
-          const {data} = await axios.get(SERVER)
+          const {data} = await axios.get('https://app-adoptando.herokuapp.com/')
           setPerros(data.perros)
       }
       getPerros()
     
   }, [] );
 
- 
+
   
 
   return (
