@@ -17,7 +17,7 @@ const Main = ({perros , setPerros}) => {
     const handleSubmit = (event) => {
     event.preventDefault();
     axios
-        .get(process.env.REACT_APP_SERVER + `/search/${buscador}`)
+        .get(`https://app-adoptando.herokuapp.com/search/${buscador}`)
         .then((result) => setPerros(result.data));
 
         setBuscador("");
