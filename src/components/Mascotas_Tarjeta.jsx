@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card,Col,Button, } from "react-bootstrap";
-import logo from "./Img_Logo/estrella.png";
+import logo from "./Img_Logo/paw.png";
 
 
 const Mascota_T = (props) =>{
@@ -28,7 +28,7 @@ const Mascota_T = (props) =>{
         <div className='razadeperros'>
 
 
-            <img src={logo}/>
+            <img className='logo' src={logo}/>
 
         
             <Card.Text className='tarjeta'>{"Raza: "+perro.raza}</Card.Text>
@@ -39,7 +39,7 @@ const Mascota_T = (props) =>{
         <div className='razadeperros'>
 
 
-            <img src={logo}/>
+            <img className='logo' src={logo}/>
             
             <Card.Text className='tarjeta'>{"Tamaño: "+perro.tamaño}</Card.Text>
         
@@ -48,7 +48,7 @@ const Mascota_T = (props) =>{
 
         <div className='razadeperros'>
 
-            <img src={logo}/>
+            <img className='logo' src={logo}/>
 
             <Card.Text className='tarjeta'>{"Edad: "+perro.edad}</Card.Text>
 

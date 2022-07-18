@@ -28,8 +28,8 @@
 
 .normal {
   background-color: rgb(47, 114, 58) ;
-
 }
+
 
 
 .text{
@@ -232,4 +232,9 @@ color: red;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.logo{
+  width: 7%;
+  margin-right: 5px;
 }
