@@ -32,25 +32,29 @@
 
 
 
-.text{
+.inicial{
   color: white !important;
   font-size: 25px;
-  padding-left: 100px !important;
+  padding-left: 0 !important;
   font-family: 'Righteous', cursive !important;
 }
 
+.text{
+  color: white !important;
+  font-size: 25px;
+  padding-left: 0 !important;
+  font-family: 'Righteous', cursive !important;
+}
+
+
 .text1{
+  padding: 0.5rem 0rem !important;
   color: white !important;
   font-size: 30px;
   font-family: 'Righteous', cursive !important;
 }
 
-.inicial{
-  color: white !important;
-  font-size: 25px;
-  padding-left: 500px !important;
-  font-family: 'Righteous', cursive !important;
-}
+
 
 .m {
   margin-top: 10%;
@@ -79,9 +83,13 @@
 .flex-container{
 display: flex;
 width: 100%;
+flex-direction: column;
+min-height: 100vh;
 }
 
-
+.principales{
+  width: 100%;
+}
 
 
 
@@ -90,21 +98,15 @@ width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
 
 }
 
 
-
-.principales{
-  width: 50%;
-  min-height: 100vh;
-}
   
 
 .titulo{
-  margin-top: 150px;
-  font-size: 150px;
+  margin-top: 80px;
+  font-size: 70px;
   color: rgb(47, 114, 58);
   font-weight: bold;
   
@@ -114,6 +116,7 @@ width: 100%;
   font-size: 25px;
   color: rgb(47, 114, 58);
   margin: 25px;
+  text-align: center;
 
 }
 
@@ -162,14 +165,14 @@ width: 100%;
   font-family: 'Righteous', cursive !important;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: center;
 
   
 }
 
 .boton_principal{
-  width: 10%;
+  width: 100px;
   font-family: 'Righteous', cursive !important;
   background-color: rgb(53, 126, 65) !important;
   border:none !important;
@@ -215,18 +218,6 @@ font-size: 40px;
 
 }
 
-.bajadaindex {
-
-color: red;
-}
-
-.prueba2 {
-
-  width: 100%;
-
-  background-color: blue;
-
-}
 
 .razadeperros {
   display: flex;
@@ -238,3 +229,238 @@ color: red;
   width: 7%;
   margin-right: 5px;
 }
+
+
+
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+
+
+  .tarjeta{
+    color: rgb(47, 114, 58);
+    font-family: 'Righteous', cursive !important;
+    font-size: 15px !important;
+  }
+  
+  .tarjeta_titulo{
+    color: rgb(47, 114, 58);
+    font-family: 'Righteous', cursive !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+  }
+  
+  .boton_tarjeta{
+    font-family: 'Righteous', cursive !important;
+    background-color: rgb(53, 126, 65) !important;
+    border:none !important;}
+  
+    .boton_tarjeta:hover{
+      background-color: rgb(34, 80, 41) !important;
+      transition: 0.4s !important;
+    }
+  
+  .normal {
+    background-color: rgb(47, 114, 58) ;
+  }
+  
+  
+  
+  .text{
+    color: white !important;
+    font-size: 25px;
+    padding-left: 100px !important;
+    font-family: 'Righteous', cursive !important;
+  }
+  
+  .text1{
+    color: white !important;
+    font-size: 30px;
+    font-family: 'Righteous', cursive !important;
+  }
+  
+  .inicial{
+    color: white !important;
+    font-size: 25px;
+    padding-left: 500px !important;
+    font-family: 'Righteous', cursive !important;
+  }
+  
+  .m {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    
+  }
+  
+  .prueba{
+    margin-top: 0;
+  }
+  
+  #Row{
+    --bs-gutter-x: 0rem;
+    margin: 0 0 0 0 ;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  #Row>div{
+    padding: 15px;
+  }
+  
+  .flex-container{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  }
+  
+  
+  
+  
+  
+  .imagen-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  
+  }
+  
+  
+  
+  .principales{
+    width: 50%;
+  }
+    
+  
+  .titulo{
+    margin-top: 150px;
+    font-size: 150px;
+    color: rgb(47, 114, 58);
+    font-weight: bold;
+    
+  }
+  
+  .sub_titulo{
+    font-size: 25px;
+    color: rgb(47, 114, 58);
+    margin: 25px;
+  
+  }
+  
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive !important;
+    color: rgb(47, 114, 58);
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  
+  .inputs{
+    max-width: 300px !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .boton_form{
+    width: 15%;
+    margin-top: 50px !important;
+    background-color: rgb(53, 126, 65) !important;
+    border: none !important;
+  }
+  
+  .boton_form:hover{
+    background-color: rgb(34, 80, 41) !important;
+    transition: 0.4s !important;
+  }
+  
+  .texto_form{
+    font-size: 25px;
+    margin-bottom: 65px;
+  }
+  
+  .boton_principal:hover{
+    background-color: rgb(34, 80, 41) !important;
+    transition: 0.4s !important;
+  }
+  
+  .text-container{
+    font-family: 'Righteous', cursive !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+  
+    
+  }
+  
+  .boton_principal{
+    width: 10%;
+    font-family: 'Righteous', cursive !important;
+    background-color: rgb(53, 126, 65) !important;
+    border:none !important;
+  }
+  
+  .boton_principal:hover{
+    background-color: rgb(34, 80, 41) !important;
+    transition: 0.4s !important;
+  }
+  
+  .especial{
+    border: 2px solid black;
+    margin: 5px;
+    font-family: 'Carter One', cursive !important;
+  }
+  
+  .fotoindex {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fotoform {
+    width: 70%;
+    height: auto;
+  }
+  
+  .bloqueindex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .tituloindex {
+  color: white;
+  font-size: 40px;
+  
+  }
+  
+
+  
+  .razadeperros {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 7%;
+    margin-right: 5px;
+  }  
+
+
+}
+
