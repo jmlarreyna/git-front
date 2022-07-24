@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel, Button } from "react-bootstrap";
 import back from "./Img_Logo/back7.png"
-import refugio from "./Img_Logo/refugio.png"
 
 
 const Home = () => {

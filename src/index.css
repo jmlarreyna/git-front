@@ -126,6 +126,7 @@ min-height: 100vh;
   font-family: 'Righteous', cursive !important;
   color: rgb(47, 114, 58);
   align-items: center;
+  justify-content: center;
   margin-top: 100px;
 }
 
@@ -140,8 +141,8 @@ min-height: 100vh;
 
 
 .boton_form{
-  width: 15%;
-  margin-top: 50px !important;
+  width: 100px;
+  margin-top: 25px !important;
   background-color: rgb(53, 126, 65) !important;
   border: none !important;
 }
@@ -154,6 +155,7 @@ min-height: 100vh;
 .texto_form{
   font-size: 25px;
   margin-bottom: 65px;
+  text-align: center;
 }
 
 .boton_principal:hover{
@@ -195,8 +197,10 @@ min-height: 100vh;
 }
 
 .fotoform {
-  width: 70%;
+  width: 100%;
   height: auto;
+  margin-top: 100px;
+
 }
 
 .bloqueindex {
@@ -230,8 +234,27 @@ font-size: 40px;
   margin-right: 5px;
 }
 
+.buscador-form{
+  margin: 10px;
+  }
 
+.boton-buscador{
+    margin: 10px;
+    border: none !important;
+    font: white !important;
+  }
 
+  .boton-buscador{
+    width: 100px;
+    font-family: 'Righteous', cursive !important;
+    background-color: rgb(53, 126, 65) !important;
+    border:none !important;
+  }
+  
+  .boton-buscador:hover{
+    background-color: rgb(34, 80, 41) !important;
+    transition: 0.4s !important;
+  }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
 
@@ -281,7 +304,7 @@ font-size: 40px;
   .inicial{
     color: white !important;
     font-size: 25px;
-    padding-left: 500px !important;
+    margin-left: 500px !important;
     font-family: 'Righteous', cursive !important;
   }
   
@@ -425,7 +448,7 @@ font-size: 40px;
   }
   
   .fotoform {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
   

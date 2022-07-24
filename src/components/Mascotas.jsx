@@ -33,14 +33,14 @@ return (
             <FormControl
             type="search"
             placeholder="Buscar por Raza o Tamaño"
-            className="me-2"
+            className="buscador-form"
             aria-label="Search"
             onChange={handleChange}
             value={buscador}
             />
-            <Button type="submit" variant="outline-success">Buscar</Button>
+            <Button className="boton-buscador" type="submit" >Buscar</Button>
 
-            <Button href="/mascotas" variant="outline-success">Todos</Button>
+            <Button className="boton-buscador" href="/mascotas" >Todos</Button>
 
     </Form>
 

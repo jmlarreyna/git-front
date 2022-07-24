@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useState } from "react";
 import {Form, Button,Row} from 'react-bootstrap';
-import back_form from "./Img_Logo/form.png"
+import back_form from "./Img_Logo/formulario3.png"
 
 
 
