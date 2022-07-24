@@ -32,7 +32,7 @@ return (
 
             <FormControl
             type="search"
-            placeholder="Buscar por Raza o Tamaño"
+            placeholder="Buscar Raza/Tamaño"
             className="buscador-form"
             aria-label="Search"
             onChange={handleChange}

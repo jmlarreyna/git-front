@@ -145,6 +145,7 @@ min-height: 100vh;
   margin-top: 25px !important;
   background-color: rgb(53, 126, 65) !important;
   border: none !important;
+  margin-bottom: 25px !important;
 }
 
 .boton_form:hover{
@@ -397,6 +398,8 @@ font-size: 40px;
     margin-top: 50px !important;
     background-color: rgb(53, 126, 65) !important;
     border: none !important;
+    margin-bottom: 0px !important;
+
   }
   
   .boton_form:hover{
