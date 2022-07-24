@@ -102,7 +102,7 @@ min-height: 100vh;
 }
 
 
-  
+
 
 .titulo{
   margin-top: 80px;
@@ -487,6 +487,27 @@ font-size: 40px;
     margin-right: 5px;
   }  
 
+  .buscador-form{
+    margin: 10px;
+    }
+  
+  .boton-buscador{
+      margin: 10px;
+      border: none !important;
+      font: white !important;
+    }
+  
+    .boton-buscador{
+      width: 100px;
+      font-family: 'Righteous', cursive !important;
+      background-color: rgb(53, 126, 65) !important;
+      border:none !important;
+    }
+    
+    .boton-buscador:hover{
+      background-color: rgb(34, 80, 41) !important;
+      transition: 0.4s !important;
+    }
 
 }
 
